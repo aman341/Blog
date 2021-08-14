@@ -40,6 +40,32 @@ const SideBar = (props) => {
         }}
       >
         <div className="cardHeader">
+          <span>Education</span>
+          <h6>
+            <a href="http://cbseresults.nic.in/CBSEResults/Page/Page?PageId=19&LangId=P">
+              {" "}
+              10th{" "}
+            </a>
+          </h6>
+          <h6>
+            <a href="https://crida.in/bihar-board-12th-result/"> 12th </a>
+          </h6>
+          <h6>
+            {" "}
+            <a href="https://www.brabu.net/professional_result.php">
+              {" "}
+              Graduation
+            </a>
+          </h6>
+          <h6>
+            <a href="http://bputexam.in/studentsection/resultpublished/studentresult.aspx">
+              {" "}
+              Masters
+            </a>
+          </h6>
+        </div>
+
+        <div className="cardHeader">
           <span>Social Network</span>
           <h6>FaceBook</h6>
           <h6>Instagram</h6>
